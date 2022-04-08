@@ -1,0 +1,17 @@
+{
+	"info": {
+		"_postman_id": "c94d6e30-5772-4628-93b9-f3bd1636387b",
+		"name": "WorldSkills_WSTowers_WebAPI",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "ListarVendas",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
