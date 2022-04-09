@@ -15,7 +15,7 @@ namespace WSTowers_webAPI.Controllers
     public class VendasController : ControllerBase
     {
 
-        private string stringConexao = @"Data Source=DESKTOP-8FOKHBA\SQLEXPRESS; initial catalog=WSTowers; Integrated Security=True";
+        private string stringConexao = @"Data Source=localhost; initial catalog=WSTowers; Integrated Security=True";
 
         [HttpGet("Manual")]
         public IActionResult ListAll()
