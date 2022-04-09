@@ -9,7 +9,41 @@
 			"name": "ListarVendas",
 			"request": {
 				"method": "GET",
-				"header": []
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/api/Vendas/Manual",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"Vendas",
+						"Manual"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ListarVendasParticipante",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/api/Vendas/Participante",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"Vendas",
+						"Participante"
+					]
+				}
 			},
 			"response": []
 		}
